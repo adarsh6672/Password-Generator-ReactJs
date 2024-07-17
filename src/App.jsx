@@ -16,7 +16,7 @@ function App() {
 
   const generatePassword = async () => {
     try {
-      const response = await fetch('http://localhost:8080/api/password/generate', {
+      const response = await fetch('https://password-generator-spring-boot.onrender.com/api/password/generate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
